@@ -1,6 +1,7 @@
-<html>
+<html lang="ru">
 <head>
     <title>HTML5 Canvas Winning Wheel</title>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="./css/main.css" type="text/css" />
     <script type="text/javascript" src="./js/Winwheel.js"></script>
     <script src="./js/TweenMax.min.js"></script>
@@ -15,22 +16,22 @@
                     <br />
                     <table class="power" cellpadding="10" cellspacing="0">
                         <tr>
-                            <th align="center">Power</th>
+                            <th align="center">Скорость</th>
                         </tr>
                         <tr>
-                            <td width="78" align="center" id="pw3" onClick="powerSelected(3);">High</td>
+                            <td width="78" align="center" id="pw3" onClick="powerSelected(3);">Быстро</td>
                         </tr>
                         <tr>
-                            <td align="center" id="pw2" onClick="powerSelected(2);">Med</td>
+                            <td align="center" id="pw2" onClick="powerSelected(2);">Быстрее</td>
                         </tr>
                         <tr>
-                            <td align="center" id="pw1" onClick="powerSelected(1);">Low</td>
+                            <td align="center" id="pw1" onClick="powerSelected(1);">Медленно</td>
                         </tr>
                     </table>
                     <br />
-                    <img id="spin_button" src="./img/spin_off.png" alt="Spin" onClick="startSpin();" />
+                    <div id="spin_button" src="./img/spin_off.png" alt="Spin" onClick="startSpin();">Вращать</div>
                     <br /><br />
-                    &nbsp;&nbsp;<a href="#" onClick="resetWheel(); return false;">Play Again</a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(reset)
+                    <a class="reset" href="#" onClick="resetWheel(); return false;">Сброс</a>
                 </div>
             </td>
             <td width="438" height="582" class="the_wheel" align="center" valign="center">
@@ -56,7 +57,7 @@
                     {'fillStyle' : '#f6989d', 'text' : '3700'},
                     {'fillStyle' : '#00aef0', 'text' : '4100'},
                     {'fillStyle' : '#f26522', 'text' : '4200'},
-                    {'fillStyle' : '#000000', 'text' : '4400'},
+                    {'fillStyle' : '#ff33dd', 'text' : '4400'},
                     {'fillStyle' : '#e70697', 'text' : '4600'},
                     {'fillStyle' : '#fff200', 'text' : '5100'},
                     {'fillStyle' : '#f6989d', 'text' : '2900'},
@@ -172,7 +173,7 @@
             } else if (indicatedSegment.text == 'BANKRUPT') {
                 alert('Oh no, you have gone BANKRUPT!');
             } else {
-                alert("You have won " + indicatedSegment.text);
+                alert("Ура! Ваша фотосессия за " + indicatedSegment.text);
             }
         }
     </script>

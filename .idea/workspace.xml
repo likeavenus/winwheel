@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="64a34afa-8db9-48bc-98f8-74515505b7e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576864006432</updated>
-      <workItem from="1576864007528" duration="2758000" />
+      <workItem from="1576864007528" duration="3993000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1576864418342</created>
@@ -88,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576865296596</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Настройка">
+      <created>1576866779380</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576866779380</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +117,7 @@
     <MESSAGE value="start" />
     <MESSAGE value="fix html" />
     <MESSAGE value="add tweenmax js" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tweenmax js" />
+    <MESSAGE value="Настройка" />
+    <option name="LAST_COMMIT_MESSAGE" value="Настройка" />
   </component>
 </project>
