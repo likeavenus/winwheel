@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64a34afa-8db9-48bc-98f8-74515505b7e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/Winwheel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Winwheel.min.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -38,6 +41,7 @@
       <recent name="G:\firststep\winwheel\js" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\firststep\winwheel\js" />
       <recent name="G:\firststep\winwheel" />
     </key>
   </component>
@@ -63,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576864006432</updated>
-      <workItem from="1576864007528" duration="725000" />
+      <workItem from="1576864007528" duration="917000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1576864418342</created>
